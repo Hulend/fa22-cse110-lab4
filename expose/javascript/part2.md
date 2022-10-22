@@ -12,7 +12,7 @@
 10. length is set to prices.length is the size of the array and cannot change, thus it would print 3
 11. discounted points to an empty array and const doesn't stop the manipulation of where the variables point to; therefore, the push function for arrays still work since it's not re-assigning or re-declaring. function will still return an array with values 50, 100, 150 (const has block scope)
 12. 
-    - a. student.name
+    - student.name
     - student['Grad Year']
     - student.greeting()
     - student['Favorite Teacher'].name
@@ -21,7 +21,7 @@
     - '32' since '3' is a char it added 2 by string logic
     - 1, subtraction is not used in char so it assumed to be a number
     - 3, 3 + 0 = 3 (null is false)
-    - '3null' since it was addition by string logic
+    - '3null', since it was addition by string logic
     - 4, true default value is 1
     - 0, false and null are both false values which is 0, 0 + 0 = 0
     - '3undefined' due to string addition
